@@ -1,0 +1,82 @@
+a {
+    transition: all .2s ease-in-out;
+}
+a:hover {
+    color: #fd6a00;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.navbar {
+    background-color: black;
+    font-family: 'Oleo Script', sans-serif;
+    font-size: 20px;
+}
+
+.button {
+    width: 300px;
+    height: 80px;
+    border-top: 1px solid #96d1f8;
+    background: #65a9d7;
+    background: -webkit-gradient(linear, left top, left bottom, from(#3e779d), to(#65a9d7));
+    background: -webkit-linear-gradient(top, black, black);
+    background: -moz-linear-gradient(top, black, black);
+    background: -ms-linear-gradient(top, black, black);
+    background: -o-linear-gradient(top, black, black);
+    padding: 9.5px 19px;
+    -webkit-border-radius: 13px;
+    -moz-border-radius: 13px;
+    border-radius: 13px;
+    -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+    box-shadow: rgba(0,0,0,1) 0 1px 0;
+    text-shadow: rgba(0,0,0,.4) 0 1px 0;
+    color: white;
+    font-size: 25px;
+    font-family: Georgia, serif;
+    text-decoration: none;
+    vertical-align: middle;
+}
+.button:hover {
+    border-top-color: #A60C00;
+    background: #a71401;
+    color: #ccc;
+}
+.button:active {
+    border-top-color: black;
+    background: black;
+}
+
+footer {
+    text-align: center;
+}
+#author {
+    font-size: 17px;
+    border-radius: 25px;
+    border: 2px solid #8AC007;
+    padding: 10px 20px; 
+}
+
+@media (min-width: 768px) {
+    .navbar li {
+        position: relative;
+        left: 900%;
+    }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+    .navbar li {
+        left: 620%;
+    }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+    .navbar li {
+        left: 450%;
+    }
+}
+@media (max-width: 767px) {
+    p {
+        font-size: 20px;
+    }
+}

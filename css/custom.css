@@ -1,0 +1,29 @@
+body {
+	text-align: center;
+    background: url('../img/fabric-plaid.png') scroll;
+}
+
+p {
+	font-size: 25px;
+}
+
+section {
+	color: white;
+	background-color: #fd6a00;
+}
+
+h1 {
+	font-style: italic;
+}
+
+#dedication {
+	color: black;
+}
+
+.line {
+	width: inherit;
+	background: rgba(135, 135, 135, 0.5);
+	width: 100px;
+	height: 1px;
+	margin: 30px auto;
+}
