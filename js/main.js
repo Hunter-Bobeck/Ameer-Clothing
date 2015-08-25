@@ -63,6 +63,12 @@ jQuery(document).ready(function($){
 		//check if user has pressed 'Esc'
     	if(event.which=='27'){
 			closeQuickView( sliderFinalWidth, maxQuickWidth);
+			$(qvoveraly).removeClass('overlay_active');
+			
+			$('body, html').css({
+				'overflow':'auto',
+				'height':'auto'
+			});
 		}
 	});
 
