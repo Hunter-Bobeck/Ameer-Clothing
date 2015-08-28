@@ -630,3 +630,7 @@ footer {
     margin-top: 200px;
   }
 }
+
+.cd-slider, .cd-slider-navigation {
+  margin-bottom: 0px;
+}
