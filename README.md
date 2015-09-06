@@ -1,2 +1,2 @@
 # AmeerClothing.com
-Ameer Clothing is a clothing company run by Ibrahim Durrani in dedication to his late younger brother, Ameer. Check out the Ameer clothing products!
+I made this website for Ibrahim Durrani, the owner of the clothing company Ameer Clothing dedicated to his late younger brother.
